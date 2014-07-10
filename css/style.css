@@ -1,0 +1,146 @@
+.container {
+  background: #356618;
+  width: 942px;
+  margin: 0 auto;
+  height: 1430px;
+}
+
+/* header */
+
+.logo {
+  width: 901px;
+  height:99px;
+  background: #fff;
+  margin-top:0px;
+  margin-left:21.5px;
+  margin-right:21.5px;
+}
+
+.navbar {
+  text-align:center;
+  height: 53px;
+}
+
+.navbar ul {
+  background: #4b4b4b;
+  margin-top:0px;
+  margin-left:21.5px;
+  margin-right:21.5px;
+  border-bottom: 1px solid #fff
+}
+
+.navbar ul li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 80px;
+  color: #f0f2c9;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.logo img {
+  display:block;
+  margin: 0 auto;
+}
+
+/* main content */
+
+.upper-content {
+  position:relative;
+  margin-top: 6px;
+  margin-left:21.5px;
+  margin-right:21.5px;
+  background-image:url('../images/gardening1.jpg');
+  width: 901px;
+  height:432px;
+
+}
+
+.main-tips {
+  position:absolute;
+  bottom: 0px;
+  background: #454733;
+  width: 900px;
+  height:112px;
+  opacity: .85;
+}
+
+.main-tips h1,p {
+  color: #f0f2c9;
+  margin-left: 21px;
+  margin-top: 5px;
+}
+
+.main-tips h1 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+.main-tips p {
+  color: #d2e1c9;
+  margin-bottom: 100px;
+}
+
+.tips-section ul {
+  list-style:none;
+  overflow:hidden;
+
+}
+
+.tips-section ul li {
+  float:left;
+  overflow:hidden;
+  width:280px;
+  padding: 9px 20px 7px 0;
+
+}
+
+.tips-section ul li img {
+  float:left;
+  border: 1px solid white;
+}
+
+.tips-section ul li h3 {
+ margin: 0;
+ margin-left: 100px;
+ color: #e3e699;;
+}
+
+.tips-section p {
+  margin-left: 100px;
+  color: white;
+}
+
+/*lower content*/
+
+.lower-content {
+  width: 900px;
+  height:700px;
+  background-color: #fff;
+  margin: 0 auto;
+}
+
+.lower-title {
+  width:862px;
+  height:38px;
+  background-color: #dce9d4;
+  border-bottom: 1px solid #85977b;
+  margin:0 auto;
+  position:relative;
+  top: 24px;
+
+}
+
+.lower-title h3 {
+  margin-left:15px;
+  padding-top: 5px;
+  color: #71724c;
+  text-transform: uppercase;
+}
+
+
+
+
