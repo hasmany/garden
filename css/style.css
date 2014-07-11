@@ -2,7 +2,7 @@
   background: #356618;
   width: 942px;
   margin: 0 auto;
-  height: 1430px;
+  height: 1680px;
 }
 
 /* header */
@@ -122,7 +122,7 @@
 
 .lower-content {
   width: 900px;
-  height:700px;
+  height:720px;
   background-color: #fff;
   margin: 0 auto;
 }
@@ -145,25 +145,27 @@
   text-transform: uppercase;
 }
 
-.lower-content ul {
+.lower-content #tip-list {
   margin-top:23px;
   list-style:none;
  /* margin: 0;*/
   overflow: hidden;
   padding: 21px 0;
+
+
 }
 
-.lower-content ul li {
+.lower-content #tip-list li {
   float: left;
   width: 200px;
   margin-left: 20px;
 }
 
-.lower-content ul li {
+.lower-content #tip-list li {
   text-align: left;
 }
 
-.lower-content ul h4 {
+.lower-content #tip-list h4 {
   color: #836145;
   font-size: 16px;
   font-weight: normal;
@@ -172,14 +174,105 @@
   text-transform:uppercase ;
 }
 
-.lower-content ul p {
+.lower-content #tip-list p {
   color: #4b4b4b;
   letter-spacing: 0.028em;
   line-height: 24px;
   text-align:left;
 }
 
+#tip-list {
+  border-bottom: 1px solid gray;
+}
+
+.week-pic {
+  display:block;
+  float:left;
+  margin-left:20px;
+}
+
+.tip-numbers {
+  float:right;
+  width:540px;
+}
+
+.week-title {
+  width: 540px;
+  height: 40px;
+  background: #dce9d4;
+  color: #836145;
+  text-transform: uppercase;
+  position:relative;
+  right: 10px;
+  border-bottom: 1px solid #85977b;
+}
+
+.week-title h3 {
+  font-weight: normal;
+  position:relative;
+  top: 7px;
+  left: 14px;
+}
+
+.week {
+  list-style-type: decimal;
+}
+.week li {
+  position:relative;
+  left: -28px;
+  line-height: 24px;
+  letter-spacing: 0.028em;
+  text-align: left;
+}
+
+.extra-content {
+  margin: 0 auto;
+  width: 900px;
+  background: #fff;
+  height: 150px;
+  color:gray;
+}
+
+.extra-content ul {
+  list-style: none;
+}
+
+.extra-content h2 {
+  text-align: center;
+  margin-top: 15px;
+  padding-top: 10px;
+
+}
+
+.extra-content li {
+  display: inline-block;
+  margin-left: 165px;
+}
+
+.extra-content a {
+  display:block;
+  min-height: 20px;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  padding: 0 0 0 30px;
+  margin: 0 0 10px;
+}
+
+.extra-content li.mail a {
+  background-image: url("../images/mail.png");
+}
+
+.extra-content li.twitter a {
+  background-image: url("../images/twitter.png");
+}
+
+.extra-content li.facebook a {
+  background-image: url("../images/facebook-wrap.png")
+}
 
 
+.extra-content p {
+  text-align: center;
+}
 
 
