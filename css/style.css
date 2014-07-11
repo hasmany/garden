@@ -241,13 +241,17 @@
   text-align: center;
   margin-top: 15px;
   padding-top: 10px;
-
+  font-size: 18px;
+  font-weight: normal;
+  text-shadow: 1px 1px 1px #fff;
+  text-transform: uppercase;
 }
 
 .extra-content li {
   display: inline-block;
-  margin-left: 165px;
+  margin-left: 146px;
 }
+
 
 .extra-content a {
   display:block;
@@ -256,23 +260,48 @@
   background-size: 20px 20px;
   padding: 0 0 0 30px;
   margin: 0 0 10px;
+  text-decoration: none;
+  letter-spacing: 0.05em;
+  color: gray;
 }
 
+
+
 .extra-content li.mail a {
-  background-image: url("../images/mail.png");
+  background-image: url("../images/mailgreen.png");
 }
 
 .extra-content li.twitter a {
-  background-image: url("../images/twitter.png");
+  background-image: url("../images/twitter_green.png");
 }
 
 .extra-content li.facebook a {
-  background-image: url("../images/facebook-wrap.png")
+  background-image: url("../images/facebook_green.png")
 }
 
 
 .extra-content p {
   text-align: center;
 }
+
+.extra-content a:hover {
+  color:black;
+}
+
+.extra-content a.mail:hover {
+  background-image: url("../images/mail_fade.png");
+}
+
+.extra-content a.twitter:hover{
+  background-image: url("../images/twitter_fade.png");
+}
+
+.extra-content a.facebook:hover{
+  background-image: url("../images/facebook_fade.png");
+}
+
+
+
+
 
 
