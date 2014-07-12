@@ -32,13 +32,24 @@
 .navbar ul li {
   list-style: none;
   display: inline-block;
-  margin-left: 80px;
+  padding-left: 40px;
   color: #f0f2c9;
   text-align: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   font-size: 16px;
+  padding-right:40px;
 }
+
+
+
+.navbar ul li:hover {
+  background: #daead0;
+  color: #1b330c;
+}
+
+
+
 
 .logo img {
   display:block;
@@ -55,8 +66,9 @@
   background-image:url('../images/gardening1.jpg');
   width: 901px;
   height:432px;
-
 }
+
+
 
 .main-tips {
   position:absolute;
@@ -71,6 +83,10 @@
   color: #f0f2c9;
   margin-top: 5px;
   margin-left: 21px;
+}
+
+.main-tips h1:hover {
+  color: #fff;
 }
 
 .main-tips p {
