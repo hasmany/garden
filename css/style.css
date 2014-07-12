@@ -326,6 +326,12 @@ a {
 /*ABOUT PAGE*/
 /*===========*/
 
+.about-wrapper {
+  background: #356618;
+  width: 942px;
+  margin: 0 auto;
+  height: 1000px;
+}
 .about-content {
   margin-left:21.5px;
   margin-right:21.5px;
@@ -335,12 +341,26 @@ a {
 .about-content h2 {
   padding-top: 36px;
   text-transform:uppercase;
-  font-style:normal;
   color:gray;
+  line-height: 24px;
 }
+
 
 .about-text {
   margin-left: 20px;
   margin-right:20px;
 }
+
+.about-text h3 {
+  color: #8f6b52;
+  font-weight:normal;
+  letter-spacing: 0.028em;
+  line-height: 24px;
+}
+
+.about-text p {
+  color: #37715d;
+  line-height:24px;
+}
+
 
