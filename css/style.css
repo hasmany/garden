@@ -422,3 +422,59 @@ a {
 .extra-content {
   margin-top: 25px;
 }
+
+/*#############*/
+/*GARDENS PAGE*/
+/*#############*/
+/*.plant-content {
+  margin-left:21.5px;
+  margin-right:21.5px;
+  background-color:white;
+  height: 925px;
+}*/
+
+.gardens-wrapper {
+  margin-top: 20px;
+  margin-left:21.5px;
+  margin-right: 21.5px;
+  background-color: white;
+  height:925px;
+}
+
+.col-gardens {
+  list-style: none;
+}
+
+.col-gardens div {
+  height: 212px;
+}
+.col-gardens img {
+  /*margin-top:8px;*/
+
+  width: 310px;
+  margin-right:21px;
+  float:left;
+}
+
+.gardens-wrapper div:first-child {
+  padding-top: 33px;
+  margin-left: 40px;
+}
+
+.gardens-wrapper div:first-child h2 {
+  color: #818181;
+  text-transform:uppercase;
+}
+
+.gardens-wrapper p {
+  /*color: #356618;*/
+  line-height:25px;
+  word-spacing: 2px;
+}
+
+
+.gardens-wrapper h3 {
+  color: #836145;
+}
+
+
