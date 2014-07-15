@@ -363,4 +363,27 @@ a {
   line-height:24px;
 }
 
+/*##########*/
+/*PLANT PAGE*/
+/*##########*/
 
+.plant-content {
+  margin-left:21.5px;
+  margin-right:21.5px;
+  background-color:white;
+}
+
+.col-left {
+  margin-left: 18px;
+  margin-right: 50px;
+  width: 325px;
+}
+.col-left img{
+  display:inline-block;
+  float: left;
+}
+
+.extra-content {
+  margin-top: 5px;
+  clear:both;
+}
