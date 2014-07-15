@@ -371,6 +371,7 @@ a {
   margin-left:21.5px;
   margin-right:21.5px;
   background-color:white;
+  height: 925px;
 }
 
 .col-left {
@@ -399,8 +400,25 @@ a {
 .plant-header h2 {
   padding-top:33px;
   margin-bottom:35px;
+  color: #818181;
+  text-transform:uppercase;
 }
 
 .extra-content {
   padding-top: 10px;
+}
+
+.plant-content h3 {
+  color: #836145;
+  margin-bottom: -8px;
+}
+
+.plant-content p {
+  color: #356618;
+  line-height: 25px;
+  word-spacing: 2px;
+}
+
+.extra-content {
+  margin-top: 25px;
 }
