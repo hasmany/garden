@@ -374,16 +374,33 @@ a {
 }
 
 .col-left {
-  margin-left: 18px;
-  margin-right: 50px;
-  width: 325px;
+  list-style:none;
 }
 .col-left img{
-  display:inline-block;
-  float: left;
+  float:left;
+  width: 310px;
+  margin-right:21px;
+}
+
+.col-left div {
+  /*float:right;*/
+  height: 218px;
+  margin-right:20px;
 }
 
 .extra-content {
-  margin-top: 5px;
   clear:both;
+}
+
+.plant-header {
+  margin-left: 40px;
+}
+
+.plant-header h2 {
+  padding-top:33px;
+  margin-bottom:35px;
+}
+
+.extra-content {
+  padding-top: 10px;
 }
