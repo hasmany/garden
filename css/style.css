@@ -472,9 +472,39 @@ a {
   word-spacing: 2px;
 }
 
-
 .gardens-wrapper h3 {
   color: #836145;
 }
 
+/*#########*/
+/*News Page*/
+/*#########*/
 
+.news-content {
+  background-color:#fff;
+  margin-left: 21.5px;
+  margin-right: 21.5px;
+  height: 1200px;
+}
+
+.left-col {
+  float:left;
+  margin-right: 18px;
+  margin-left:18px;
+}
+
+.right-col {
+  height: inherit;
+  padding-left:15px;
+  display:inline-block;
+  border-left: 1px solid #96b285;
+  /*float:right;*/
+}
+
+.news-content h3:first-child {
+  float:right;
+};
+
+.news-content div:first-child {
+  margin-left:18px;
+}
