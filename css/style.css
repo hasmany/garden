@@ -480,31 +480,72 @@ a {
 /*News Page*/
 /*#########*/
 
+
 .news-content {
   background-color:#fff;
   margin-left: 21.5px;
   margin-right: 21.5px;
-  height: 1200px;
+  height: 1100px;
 }
 
-.left-col {
+.article {
   float:left;
-  margin-right: 18px;
+  width:580px;
   margin-left:18px;
+  /*margin-right: 18px;*/
+  border-right: 1px solid green;
+  padding-right: 18px;
 }
 
-.right-col {
-  height: inherit;
-  padding-left:15px;
-  display:inline-block;
-  border-left: 1px solid #96b285;
-  /*float:right;*/
+.article h1 {
+  color:gray;
+  text-transform:uppercase;
+  font-style:normal;
 }
 
-.news-content h3:first-child {
+.article h2 {
+  line-height: 24px;
+}
+
+.article p {
+  letter-spacing: 0.024em;
+  line-height:18px;
+  color: #356618;
+}
+
+span {
+  color: #818181;
+  display:block;
+  letter-spacing: 0.028em;
+  line-height:24px;
+}
+
+.sidebar {
+  width:242px;
   float:right;
-};
-
-.news-content div:first-child {
-  margin-left:18px;
+  margin-right: 18px;
 }
+.sidebar h3 {
+  /*margin-top: 21.4px;*/
+  color:gray;
+  text-transform:uppercase;
+  padding-top:21px;
+}
+.sidebar ul {
+  list-style:none;
+  padding: 0;
+}
+
+.sidebar div:last-child {
+  border-top: 1px solid #96b285;
+}
+
+.sidebar li {
+  letter-spacing: 0.024em;
+  line-height: 18px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+
+
