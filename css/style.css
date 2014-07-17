@@ -549,5 +549,54 @@ span {
   margin-bottom: 15px;
 }
 
+/*#############*/
+/*Contact page*/
+/*############*/
 
+.contact-content {
+  background-color:white;
+  margin-left: 21.5px;
+  margin-right: 21.5px;
+  height: 600px;
+}
 
+.contact-content h2 {
+  padding-top: 33px;
+}
+
+.contact-content div {
+  margin-left: 40px;
+}
+
+form {
+  margin-top:43px;
+}
+
+label {
+
+  letter-spacing: 1px;
+  color: #836145;
+  line-height:40px;
+}
+
+input,textarea {
+  float:right;
+  margin-right: 332px;
+  margin-top: 7px;
+  background-color: #dce9d4;
+  border:none;
+  width:291px;
+}
+
+textarea {
+  margin-right:330px;
+  height: 134px;
+}
+
+.button {
+  width:72px;
+  height:26px;
+  color:white;
+  text-transform:uppercase;
+  background-color:#cc6b1f;
+}
